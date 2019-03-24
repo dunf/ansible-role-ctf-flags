@@ -11,15 +11,14 @@ None
 Role Variables
 --------------
 Available variables are listed below, along with default values (see `defaults/main.yml`):
-**Required variables**:
+
 
 ```
 flag
 ```
-The contents of the flag, e.g `FLAG{The_flag}`
+The contents of the flag, e.g `FLAG{The_flag}`. Does not have a default and must always be set.
 
-**Optional variables**:
-The path of the flag
+
 ```
 flag_path
 ```
