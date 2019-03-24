@@ -11,6 +11,7 @@
     create: yes
     group: '{{ flag_group }}'
     owner: '{{ flag_owner }}'
+    mode: '{{ flag_permissions }}'
     path: '{{ flag_path }}'
     state: present
     line: '{{ flag }}'

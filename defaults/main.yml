@@ -3,4 +3,4 @@
 flag_owner: root
 flag_group: root
 flag_path: /root/flag.txt
-
+flag_permissions: 0400
