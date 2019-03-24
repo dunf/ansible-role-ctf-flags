@@ -1,0 +1,16 @@
+---
+# tasks file for ctf-flags
+
+- name: Erasing existing flag
+  file:
+    path: '{{ flag_path }}'
+    state: absent
+
+- name: Creating flag file
+  lineinfile:
+    create: yes
+    group: '{{ flag_group }}'
+    owner: '{{ flag_owner }}'
+    path: '{{ flag_path }}'
+    state: present
+    line: '{{ flag }}'

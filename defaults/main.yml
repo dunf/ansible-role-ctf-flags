@@ -1,0 +1,6 @@
+---
+# defaults file for ctf-flags
+flag_owner: root
+flag_group: root
+flag_path: /root/flag.txt
+
